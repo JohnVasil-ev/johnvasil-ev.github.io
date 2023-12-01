@@ -1,6 +1,9 @@
 import svgLoader from 'vite-svg-loader';
 
 export default defineNuxtConfig({
+  app: {
+    baseURL: '',
+  },
   ssr: true,
   srcDir: "client",
   imports: {

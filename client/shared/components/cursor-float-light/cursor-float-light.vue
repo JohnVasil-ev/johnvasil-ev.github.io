@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { x, y } = useMouse({ type: 'client' });
+const { x, y } = useMouse({ type: 'client', touch: false });
 
 </script>
 

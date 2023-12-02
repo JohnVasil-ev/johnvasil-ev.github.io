@@ -13,7 +13,7 @@ import { Hero } from '@/widgets';
   padding: 0px 150px;
   margin: 0px auto;
   max-width: 1600px;
-  min-height: 100vh;
+  min-height: 100dvh;
 }
 
 @media (max-width: 1080px) {

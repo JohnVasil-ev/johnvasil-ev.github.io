@@ -3,9 +3,10 @@
   "private": true,
   "type": "module",
   "repository": {
-    "url": "git@github.com:JohnVasil-ev/portfolio.git",
+    "url": "git@github.com:JohnVasil-ev/JohnVasil-ev.github.io.git",
     "type": "git"
   },
+  "author": "John Vasiliev <i.va3iliev@gmail.com>",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",

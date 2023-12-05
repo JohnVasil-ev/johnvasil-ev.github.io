@@ -30,6 +30,7 @@ export default defineNuxtConfig({
     },
   },
   modules: [
+    'nuxt-simple-sitemap',
     '@hypernym/nuxt-anime',
     '@vueuse/nuxt',
   ],

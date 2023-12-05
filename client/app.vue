@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { BaseSeo, OpenGraphSeo, TwitterSeo, YMetrika } from '@/app/seo';
+import { BaseSeo, GoogleMetrika, OpenGraphSeo, TwitterSeo, YMetrika } from '@/app/seo';
 import { ScreenLoader } from '@/widgets';
 
 const lang = "en";
@@ -16,6 +16,7 @@ const setLoaded = () => isLoaded.value = true;
     <OpenGraphSeo />
     <TwitterSeo />
     <YMetrika />
+    <GoogleMetrika />
     <Title>Ivan Vasiliev | Portfolio</Title>
   </Head>
 

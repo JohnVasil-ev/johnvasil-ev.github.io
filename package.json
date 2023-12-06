@@ -1,18 +1,22 @@
 {
-  "name": "nuxt-app",
+  "name": "@jv-dev/portfolio",
+  "description": "Portfolio website for my own information",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "repository": {
     "url": "git@github.com:JohnVasil-ev/JohnVasil-ev.github.io.git",
     "type": "git"
   },
-  "author": "John Vasiliev <i.va3iliev@gmail.com>",
+  "author": "John Vasiliev <va3iliev.ip@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
+    "lint": "eslint --ext .ts,.vue . --fix",
     "deploy:github": "nuxt generate && gh-pages --dotfiles -d .output/public"
   },
   "devDependencies": {
